@@ -1,0 +1,20 @@
+
+{
+    "ears": {
+        "model_type": "vae_incept",
+        "model_ckpt_path": "./logs/VAE_incept_combined/version_0/checkpoints/epoch=478.ckpt",
+        "img_size": [256, 256],
+        "img_channels": 1
+    },
+    "latent": {
+        "model_type": "dnn",
+        "model_ckpt_path": "./logs/DNN_zpca/version_5/checkpoints/epoch=7732.ckpt"
+    },
+    "hrtf": {
+        "model_type": "cvae_dense",
+        "model_ckpt_path": "./logs/CVAE_dense_hutubs_None/version_2/checkpoints/epoch=4626.ckpt"
+    },
+    "el_range": [-90, 90, 10],
+    "az_range": [-180, 0, 180],
+    "n_pca": {"ears": null, "hrtf": 16}
+}
