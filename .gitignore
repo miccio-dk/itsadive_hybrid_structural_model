@@ -132,7 +132,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -165,11 +164,6 @@ dmypy.json
 cython_debug/
 
 ## USER-DEFINED
-logs/
-logs_old/
-old_logs/
-lightning_logs/
-result_logs/
 .vscode/
 TODO.md
-script_cmds.md
+

@@ -24,4 +24,4 @@ The model, implemented in MATLAB/Python, directly outputs a SOFA file.
 
 [4] S. Spagnol. HRTF selection by anthropometric regression for improving horizontal localization accuracy. IEEE Signal Processing Letters 27, pages 590-594, April 2020.
 
-#### This project has received funding from the European Union’s Horizon 2020 research and innovation programme under theMarie Skłodowska-Curie grant agreement No 797850.
+#### This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 797850.

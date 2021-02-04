@@ -5,7 +5,6 @@ import torch
 import scipy.io as sio
 import matplotlib.pyplot as plt
 from argparse import ArgumentParser
-from dotenv import load_dotenv
 from PIL import Image
 from scipy.fft import rfftfreq
 from torchvision.transforms import Compose, ToTensor, Grayscale, Resize
@@ -32,20 +31,15 @@ def plot_surface(fig, ax, hrtf, extent, az):
     fig.colorbar(im, ax=ax)
 
 def main():
-    # load env
-    load_dotenv()
-    path_basedir = os.getenv("HRTFI_DATA_BASEPATH")
-    default_output_path = os.path.join(path_basedir, 'output.mat')
-
     # args
     parser = ArgumentParser()
     # trainer args
     parser.add_argument('cfg_path', type=str)
     parser.add_argument('ear_path', type=str)
+    parser.add_argument('output_path', type=str)
     parser.add_argument('--device', default='cpu', type=str)
     parser.add_argument('--nfft', default=256, type=int)
     parser.add_argument('--sr', default=44100, type=int)
-    parser.add_argument('--output_path', default=default_output_path, type=str)
     parser.add_argument('--view', action='store_true')
     # parse
     args = parser.parse_args()
