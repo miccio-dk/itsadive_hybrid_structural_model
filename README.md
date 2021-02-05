@@ -44,10 +44,10 @@
 
 
 ## About
-This repository includes the code for a hybrid structural HRTF model combining measured, synthesised, and selected components. In particular, its three components are:
-* A generic head-and-torso component, taken from the "pinna-less" KEMAR set included in the Viking HRTF dataset v2 [1] with ITD removed (measured component);
-* A fully customized pinna component, built using features related to the shape of the user’s pinnae through deep learning [2] (synthesized component);
-* The best-match ITD from an available HRTF dataset [3] obtained by regression on anthropometric parameters of the head and torso [4] (selected component).
+This repository includes the code for a hybrid structural HRTF model combining measured, synthesised, and selected components [1]. In particular, its three components are:
+* A generic head-and-torso component, taken from the "pinna-less" KEMAR set included in the Viking HRTF dataset v2 [2] with ITD removed (measured component);
+* A fully customized pinna component, built using features related to the shape of the user’s pinnae through deep learning [1,3] (synthesized component);
+* The best-match ITD from an available HRTF dataset [4] obtained by regression on anthropometric parameters of the head and torso [5] (selected component).
 
 The model, implemented in MATLAB/Python, directly outputs a SOFA file.
 
@@ -64,7 +64,7 @@ Make sure to download and install the following MATLAB toolboxes:
 * SOFA API (1.1.x): https://sourceforge.net/projects/sofacoustics/files
 * Auditory Modeling Toolbox (latest): http://amtoolbox.sourceforge.net
 
-Furthermore, you'll need a copy of the HUTUBS [3] dataset, which can be found [here](https://depositonce.tu-berlin.de/handle/11303/9429) (file `HRIRs.zip`).
+Furthermore, you'll need a copy of the HUTUBS [4] dataset, which can be found [here](https://depositonce.tu-berlin.de/handle/11303/9429) (file `HRIRs.zip`).
 
 Finally, it is recommended to install the necessary Python dependencies within a [`virtualenv`](https://virtualenv.pypa.io/en/latest/) or using [`conda`](https://docs.conda.io/en/latest/miniconda.html).
 In the latter case, make sure to install `pip` within your Conda environment first.
@@ -123,13 +123,15 @@ Project Link: [https://itsadive.create.aau.dk](https://itsadive.create.aau.dk)
 
 
 ## References
-* [1] S. Spagnol, R. Miccini, and R. Unnthórsson (2020). The Viking HRTF dataset v2. DOI: `10.5281/zenodo.4160401`
+* [1] R. Miccini and S. Spagnol (2021). A hybrid approach to structural modeling of individualized HRTFs. In: _Proceedings of the 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Workshops (VRW 2021)_, Lisbon, Portugal, March 2021.
 
-* [2] R. Miccini and S. Spagnol. HRTF individualization using deep learning. In: _Proceedings of the 2020 IEEE Conference on Virtual Reality and 3D User Interfaces Workshops (VRW 2020)_, pages 390-395, Atlanta, GA, USA, March 2020.
+* [2] S. Spagnol, R. Miccini, and R. Unnthórsson (2020). The Viking HRTF dataset v2. DOI: `10.5281/zenodo.4160401`
 
-* [3] F. Brinkmann, M. Dinakran, R. Pelzer, J.J. Wohlgemuth, F. Seipl, and Stefan Weinzierl. The HUTUBS HRTF database. DOI: `10.14279/depositonce-8487`
+* [3] R. Miccini and S. Spagnol (2020). HRTF individualization using deep learning. In: _Proceedings of the 2020 IEEE Conference on Virtual Reality and 3D User Interfaces Workshops (VRW 2020)_, pages 390-395, Atlanta, GA, USA, March 2020.
 
-* [4] S. Spagnol. HRTF selection by anthropometric regression for improving horizontal localization accuracy. _IEEE Signal Processing Letters_ 27, pages 590-594, April 2020.
+* [4] F. Brinkmann, M. Dinakaran, R. Pelzer, J.J. Wohlgemuth, F. Seipl, and Stefan Weinzierl (2019). The HUTUBS HRTF database. DOI: `10.14279/depositonce-8487`
+
+* [5] S. Spagnol (2020). HRTF selection by anthropometric regression for improving horizontal localization accuracy. _IEEE Signal Processing Letters_ 27, pages 590-594, April 2020.
 
 
 #### This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 797850.
