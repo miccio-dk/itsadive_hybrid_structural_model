@@ -37,6 +37,7 @@
       </ul>
     </li>
     <li><a href="#license">License</a></li>
+    <li><a href="#citation">Citation</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#references">References</a></li>
   </ol>
@@ -114,6 +115,29 @@ Open MATLAB and call `generateHrtfSet()` with the following arguments:
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
+
+## Citation
+If you use this code in a scientific publication, please reference the following works [1,2]:
+```bibtex
+@inproceedings{micciniHybridApproachStructural2021,
+	title = {A hybrid approach to structural modeling of individualized {HRTFs}},
+	booktitle = {2021 {IEEE} {Conference} on {Virtual} {Reality} and {3D} {User} {Interfaces} {Abstracts} and {Workshops} ({VRW} 2021)},
+	author = {Miccini, R. and Spagnol, S.},
+	month = mar,
+	year = {2021}
+}
+
+@misc{spagnolVikingHRTFDataset2020,
+	title = {The {Viking} {HRTF} dataset v2},
+	url = {https://zenodo.org/record/4160401},
+	publisher = {Zenodo},
+	author = {Spagnol, Simone and Miccini, Riccardo and Unnthorsson, Runar},
+	month = oct,
+	year = {2020},
+	doi = {10.5281/zenodo.4160401},
+	note = {type: dataset},
+}
+```
 
 ## Contact
 Simone Spagnol - [@itsadive](https://twitter.com/itsadive) - `ssp (@) create.aau.dk`
