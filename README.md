@@ -165,15 +165,15 @@ Project Link: [https://itsadive.create.aau.dk](https://itsadive.create.aau.dk)
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/miccio-dk/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/miccio-dk/itsadive_hybrid_structural_model.svg?style=for-the-badge
 [contributors-url]: https://github.com/miccio-dk/itsadive_hybrid_structural_model/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/miccio-dk/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/miccio-dk/itsadive_hybrid_structural_model.svg?style=for-the-badge
 [forks-url]: https://github.com/miccio-dk/itsadive_hybrid_structural_model/network/members
-[stars-shield]: https://img.shields.io/github/stars/miccio-dk/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/miccio-dk/itsadive_hybrid_structural_model.svg?style=for-the-badge
 [stars-url]: https://github.com/miccio-dk/itsadive_hybrid_structural_model/stargazers
-[issues-shield]: https://img.shields.io/github/issues/miccio-dk/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/miccio-dk/itsadive_hybrid_structural_model.svg?style=for-the-badge
 [issues-url]: https://github.com/miccio-dk/itsadive_hybrid_structural_model/issues
-[license-shield]: https://img.shields.io/github/license/miccio-dk/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/miccio-dk/itsadive_hybrid_structural_model.svg?style=for-the-badge
 [license-url]: https://github.com/miccio-dk/itsadive_hybrid_structural_model/blob/master/LICENSE.txt
 [twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=twitter&colorB=555
 [twitter-url]: https://twitter.com/itsadive
