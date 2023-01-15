@@ -11,7 +11,7 @@
     },
     "hrtf": {
         "model_type": "cvae_dense",
-        "model_ckpt_path": "./checkpoints/dnn_edge_median.ckpt"
+        "model_ckpt_path": "./checkpoints/cvae_dense_median.ckpt"
     },
     "el_range": [-90, 90, 10],
     "az_range": [-180, 0, 180]

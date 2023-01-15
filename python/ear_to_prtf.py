@@ -68,7 +68,7 @@ def main():
     for ModelClass, model_type in zip([EarsModelClass, LatentModelClass, HrtfModelClass], ['ears', 'latent', 'hrtf']):
         model_ckpt_path = cfg[model_type]['model_ckpt_path']
         print(f'### Loading model {ModelClass.model_name} from {model_ckpt_path}...')
-        model = ModelClass.load_from_checkpoint(model_ckpt_path)
+        model = ModelClass.load_from_checkpoint(model_ckpt_path, nfft=args.nfft)
         model.to(args.device)
         model.eval()
         models[model_type] = model
